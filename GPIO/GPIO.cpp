@@ -72,6 +72,6 @@ int main() {
   while (1) {
     int out1 = digitalRead(right_IR);
     int out2 = digitalRead(left_IR);
-    cout << out1 << out2 << "\n";
+    cout << "IR_Left: " << out1 << "IR_Left: " << out2 << "\n";
   }
 }
